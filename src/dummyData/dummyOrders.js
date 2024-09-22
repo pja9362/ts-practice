@@ -50,4 +50,18 @@ export const dummyOrders = [
       price: "4,000",
       status: "new", // 'new', 'in-progress', 'completed'
     },
+    {
+      time: "19:33",
+      menus: [
+        {
+          name: "밀크티",
+          temp: "ice",
+          options: ["펄추가", "시럽"],
+        },
+      ],
+      orderId: 123456787,
+      orderer: "박진아",
+      price: "6,000",
+      status: "new", // 'new', 'in-progress', 'completed'
+    }
   ];
